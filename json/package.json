@@ -1,0 +1,28 @@
+{
+  "goodsLook":[
+    {"id":"1_mb","preprice":"￥y5555","img":"images/detail/100370258_01_s.jpg","price":"¥269","name":"耐克"},
+    {"id":"2","preprice":"￥y5555","img":"images/detail/100386348_01_s.jpg","price":"¥269","name":"耐克"},
+    {"id":"3","preprice":"￥y5555","img":"images/detail/100408024_01_s.jpg","price":"¥269","name":"耐克"},
+    {"id":"4","preprice":"￥y5555","img":"images/detail/100431672_01_s.jpg","price":"¥269","name":"耐克"},
+    {"id":"5","preprice":"￥y5555","img":"images/detail/100432257_01_s.jpg","price":"¥269","name":"耐克"},
+    {"id":"6","preprice":"￥y5555","img":"images/detail/100434663_01_s.jpg","price":"¥269","name":"耐克"},
+    {"id":"7","preprice":"￥y5555","img":"images/detail/100434667_01_s.jpg","price":"¥269","name":"耐克"},
+    {"id":"100108050_01_mb","preprice":"￥y5555","img":"images/detail/100434670_01_s.jpg","price":"¥269","name":"耐克"},
+    {"id":"100108050_01_mb","preprice":"￥y5555","img":"images/detail/100434674_01_s.jpg","price":"¥269","name":"耐克"},
+    {"id":"100108050_01_mb","preprice":"￥y5555","img":"images/detail/100434678_01_s.jpg","price":"¥269","name":"耐克"},
+    {"id":"11","preprice":"￥y5555","img":"images/detail/100439998_01_s.jpg","price":"¥269","name":"耐克"},
+    {"id":"12","preprice":"￥y5555","img":"images/detail/100446463_01_s.jpg","price":"¥269","name":"耐克"},
+    {"id":"13","preprice":"￥y5555","img":"images/detail/100449304_01_s.jpg","price":"¥269","name":"耐克"},
+    {"id":"14","preprice":"￥y5555","img":"images/detail/100464367_01_s.jpg","price":"¥269","name":"耐克"},
+    {"id":"15","preprice":"￥y5555","img":"images/detail/100467529_01_s.jpg","price":"¥269","name":"耐克"},
+    {"id":"12","preprice":"￥y5555","img":"images/detail/100446463_01_s.jpg","price":"¥269","name":"耐克"},
+    {"id":"13","preprice":"￥y5555","img":"images/detail/100449304_01_s.jpg","price":"¥269","name":"耐克"},
+    {"id":"14","preprice":"￥y5555","img":"images/detail/100464367_01_s.jpg","price":"¥269","name":"耐克"},
+    {"id":"15","preprice":"￥y5555","img":"images/detail/100467529_01_s.jpg","price":"¥269","name":"耐克"},
+    {"id":"12","preprice":"￥y5555","img":"images/detail/100446463_01_s.jpg","price":"¥269","name":"耐克"},
+    {"id":"13","preprice":"￥y5555","img":"images/detail/100449304_01_s.jpg","price":"¥269","name":"耐克"},
+    {"id":"14","preprice":"￥y5555","img":"images/detail/100464367_01_s.jpg","price":"¥269","name":"耐克"},
+    {"id":"15","preprice":"￥y5555","img":"images/detail/100467529_01_s.jpg","price":"¥269","name":"耐克"},
+    {"id":"15","preprice":"￥y5555","img":"images/detail/100467529_01_s.jpg","price":"¥269","name":"耐克"}
+  ]
+}

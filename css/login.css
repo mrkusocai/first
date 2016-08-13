@@ -1,0 +1,43 @@
+
+.uc_hd h2{width:151px;height:32px;padding:5px 30px 5px 0;border-right:1px solid #CCC;margin-right: 30px; float: left;}
+#uc_hd{width: 100%;border-bottom: 1px solid #ccc;height:42px;padding:13px 0;background: #ffffff;}
+.uc_hd{height:42px;}
+#yg_nav1 .top_nav_link a{background: url(../images/1.jpg) repeat-x center;}
+.login_name1{font-size: 18px;font-weight: 500;line-height: 42px;}
+
+.login_main{min-height: 553px;position: relative;width: 100%;}
+.login_main_a{position: absolute;left: -20%;}
+.login_table{width:348px;height:450px;position: absolute;left:797px;top:51px;background: #ffffff;padding:24px 0 0 30px;}
+.login_table_p1{width:280px;height:40px;padding-left: 30px;padding-right: 33px;border-bottom: 1px solid #f3f3f3;}
+.login_table_p1 span{height:40px;width:123px;text-align: center;line-height: 40px;display: block;float: left;}
+.login_table_p1_span1{background: #333333;margin-right: 5px;color:
+#ffffff;}
+.login_table_p1_span2{background: #f3f3f3;color:#333;}
+
+.login_form{width:318px;height:385px;}
+.login_form input{border: none;margin-left: 18px;float: left;font-size: 12px;}
+.login_form_1{height:38px;border: 1px solid #ccc;margin-top: 30px;}
+.login_form_1 i{width:48px;height:36px;display: block;float: left;background: url(../images/icon_sig_reg.png) no-repeat -168px -28px;}
+.login_form_1_p1{margin-top: 6px;height:18px;padding-left: 25px;background: url(../images/icon_sig_reg.png) no-repeat -180px -99px;text-indent: 16px;visibility: hidden;}
+.login_form_1_p2{margin-top: 6px;height:18px;padding-left: 25px;background: url(../images/icon_sig_reg.png) no-repeat -180px -99px;visibility: hidden;}
+.login_form_1_p3{margin-top: 6px;height:26px;text-align: right;text-decoration: underline;line-height: 26px;}
+.login_form_2{height:38px;border: 1px solid #ccc;margin-top: 6px;}
+.login_form_2 i{width:48px;height:36px;display: block;float: left;background: url(../images/icon_sig_reg.png) no-repeat -168px -60px;}
+.login_submit{width:313px;height:40px;padding-left: 5px;}
+.login_submit .login_submit_bt{text-align: center;font-size: 16px;line-height:40px;background: #e1373a;width: 308px;height:40px;color: #ffffff;margin-left: 0;cursor: pointer;}
+.login_form_1_p4{margin-top: 10px;height:20px;text-align: center;color:#777;}
+.login_form_1_p5{height:54px;margin-top: 8px;}
+.login_form_1_p5 a{float: left;display: block;margin-left: 26px;}
+.login_form_p5a1{background: url(../images/icon_sig_reg.png) no-repeat -36px -21px;width:36px;height:34px;}
+.login_form_p5a2{background: url(../images/icon_sig_reg.png) no-repeat -74px -21px;width:36px;height:34px;}
+.login_form_p5a3{background: url(../images/icon_sig_reg.png) no-repeat -110px -21px;width:36px;height:34px;}
+.login_form_p5a4{background: url(../images/icon_sig_reg.png) no-repeat -36px -57px;width:36px;height:34px;}
+.login_form_p5a5{background: url(../images/icon_sig_reg.png) no-repeat -74px -57px;width:36px;height:34px;}
+
+.login_form_j span{float: left;text-align: center;line-height: 38px;padding-left: 5px;width: 48px;}
+.login_form_j{height:38px;border: 1px solid #ccc;margin-top:3px;position: relative;width: 200px;display: none;}
+.login_form_j input{width:100px;margin-left: 15px;float: left;line-height: 36px;border: none;}
+.login_form_j_strong{width:110px;height:36px;display: inline-block;position: absolute;right: -118px;top: 0;background:skyblue;text-align: center;line-height: 34px;font-size: 20px;}
+.login_form_j .right_tag{position: absolute;height:24px;width:24px;}
+.login_form_1_j{margin-top: 6px;height:18px;padding-left: 25px;background: url(../images/icon_sig_reg.png) no-repeat -180px -99px;visibility: hidden;}
+

@@ -1,0 +1,47 @@
+.newListy{min-height:251px;background: skyblue;margin-bottom: 20px;}
+.filter_bar{height:36px;background:#f3f3f3;margin-top: 20px;line-height: 36px;}
+#list_main{background: white;width: 100%}
+
+/*//开始设置赛选*/
+.bd_bar_left{width:362px;height:23px;padding-left: 25px;display: block;float: left;}
+.bd_bar_left b{width:60px;height:23px;padding-right:10px;float: left;display: block;}
+.bd_bar_left a{width:50px;height:23px;margin-right:8px;float: left;display: block;margin-top: 6px;text-align: center;line-height: 24px;z-index: 2;}
+.new_list{background:url(../images/resprite12.png)3px -23px;}
+.bd_bar_left a:hover{color:red;}
+.bd_bar_left .bd_bar_red:hover{color:white;}
+.price_list{background:url(../images/resprite12.png)3px -23px;}
+
+
+/*//设置一个公共样式*/
+.bd_bar_left .bd_bar_red{background:red;color:white;}
+
+
+.chose_price{width:100px;height:26px;overflow: hidden;float: left;}
+.chose_price span{float:left;height:26px;width:38px;display: block;}
+.chose_price input{border:none;}
+.chose_price i{width:10px;height:23px;display: block;float: left;background: #f3f3f3;}
+
+
+.choose_new{width:200px;height:36px;color: red;float: left}
+.choose_new i{float: left;background: url(../images/resprite12.png)left -98px;}
+.choose_new span{float: left;width:88px;margin-right: 10px;height: 36px;line-height: 36px;}
+
+.choose_next{width:450px;float: right;line-height: 32px;height:36px;}
+.choose_next b{color: red;width:24px;height:36px;margin-right: 10px;display: block;float: right}
+.choose_next span{width:50px;height:36px;float: right;display: block;}
+.choose_next a{color: #666;width:60px;height:36px;display: block;float: right;}
+/*//以上为赛选条结束*/
+
+
+.filter_result_list{min-height: 600px;_height:600px;}
+
+/*//ajax加载数据，然后进行排序*/
+.scroll_wrap{height:326px;width:232px;padding-bottom:10px;margin-left:6px;margin-top:6px;float: left}
+.scroll_wrap dt{height:198px;width:200px;border:1px solid #ccc;padding-top: 40px;padding-left:30px;}
+.scroll_wrap dt img{text-align: center;}
+.scroll_wrap dd{padding-bottom: 6px;width:32px;height:80px;margin-left: 2px;}
+.tag_list{height:16px;width:232px;background: pink;}
+.list_goods_name{height:43px;overflow: hidden;width: 230px;}
+.list_price_tag{height:21px;width:230px;}
+.list_price_tag b{color:#ff5000;font-weight: 800;margin-right:4px;display: block;float: left;font-size: 16px;}
+.list_price_tag del{color:#5c5c5c;}

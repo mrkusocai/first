@@ -1,0 +1,167 @@
+#shop_main{background: white;}
+a{color: #36c;}
+a:hover{color:#ff0000;}
+.shop_wrap{min-height: 589px;}
+.goods_img{width:482px;height:589px;float: left;position: relative;border: 1px solid #ccc;}
+.goods_pic{width:482px;height:482px;position: relative;z-index: 2;}
+.goods_pic img{position: absolute;left: 0;top:0;display: none;float: left;}
+.goods_pic .goods_show{display:block;}
+.goods_clist{width:490px;height:78px;padding-top: 11px;}
+.goods_clist li{float: left;margin:0 1px;height:69px;width:66px;padding-top:5px;background:url(../images/content/new_dpico.png)no-repeat -30px -255px;}
+.goods_clist li img{padding: 2px;margin:1px;}
+
+.curLoc p{margin-top:5px;margin-bottom: 5px;}
+.curLoc p a{color:#36c;}
+.curLoc p a:hover{color:red;}
+/*放大镜*/
+/*大图片*/
+.show_big_pic{width:470px;height:430px;position: absolute;right:-490px;top:0;border: 1px solid #000;display: none;overflow: hidden;z-index: 150}
+/*浮动图层*/
+.float_showBig{width:200px;height:200px;opacity: 0.3;filter:alpha(opacity=30);position: absolute;left: 0;top:0;display: none;background: skyblue;}
+.show_big_pic img{position: absolute;left: -80px;top:-50px;display: none;z-index: 150;}
+
+
+/*商品栏右边*/
+.goods_container_right{padding-left: 18px;width:490px;height:589px;float: left;}
+.goods_container_right h1{height:28px;font-size: 16px;margin-bottom: 12px;}
+.goods_container_right_1 a{height:31px;color: #36c;}
+.goods_container_right_price{margin-top:28px;font-size: 24px;color: #ff0000;margin-bottom: 38px;}
+.goods_container_right_price b{font-size: 32px;font-family:arial;}
+.goods_container_right_price del{color: #aaa;font-size: 12px;margin-left: 8px;}
+.goods_container_right_price strong{color:#aaa;height:17px;font-size: 12px;margin-left: 10px;}
+
+
+/*倒计时*/
+.limittimer{height:18px;margin-bottom: 33px;}
+.limittimer dt{float: left;text-indent: 15px;background: url(../images/content/new_dpico.png)no-repeat left -237px;width:70px;height:16px;line-height: 16px;margin-right: 19px;color: white;}
+.limittimer dd{float: left;width:250px;height:16px;line-height: 16px;margin-left: 0;}
+.limittimer dd a{margin-left: 7px;}
+.limittimer dd b{color: #ff0000;font-family: arial, helvetica, sans-serif;width: 20px;height: 16px;display:inline-block;text-align: center;}
+
+/*//商品评分*/
+.shop_evaluate p{height:31px;line-height: 31px;float: left;width:260px;}
+.shop_evaluate i{width:63px;margin-left: 3px;height:11px;margin-top:20px;display: inline-block;background: url(../images/star_show_small.png) no-repeat left -89px;}
+.shop_evaluate em{width:38px;margin-left: 3px;height: 30px; margin-right:6px;color: #ff0000;}
+.evaluate_a{float: right;padding-left: 22px;width:48px;}
+.shop_evaluate{width: 100%;height:31px;}
+/*//shop_buy*/
+.goods_buy{background: #f8f8f8;width:478px;height:241px;margin-top:5px;padding-left:10px;padding-top:22px;position: relative;}
+.shop_color{height:49px;}
+.shop_color span{height:49px;float: left;margin-right:6px;}
+.shop_color a{margin-left: 12px;margin-top: 5px;display: inline-block;border: 1px solid #ccc;float: left;position: relative;}
+/*.shop_color a:hover{border: 1px solid red;background: url(../images/content/new_dpico.png)no-repeat left -122px;z-index: 3;position: relative;}*/
+.shop_color .shop_color_as{height:40px;width:40px;z-index: -1000;}
+.shop_color_a{position: absolute;top:40px;
+    left: 0;height:160px;width:160px;z-index: 5;display: none;}
+.shop_color_i{background:url(../images/content/new_dpico.png)no-repeat left -122px;position: absolute;right:0;bottom:0;z-index: 1;width:15px;height:12px;display: none;}
+
+/*//尺码选择*/
+.shop_size{height:30px;margin-top: 16px;}
+.shop_size b{float:left;margin-right: 17px;height: 18px;line-height: 18px}
+.shop_size span{height:18px;margin-right: 10px;border: 1px solid #CCC;text-align: center;padding: 0 4px;width: 24px;display: block;float: left;line-height:18px;position: relative;cursor: pointer;}
+.shop_size span:hover{border:1px solid red;}
+.shop_size_i{background:url(../images/content/new_dpico.png)no-repeat left -122px;position: absolute;right:0;bottom:0;z-index: 1;display: none;width:15px;height:12px;}
+/*//尺码表*/
+.shop_size_compare{width:308px; height:30px;margin-top: 10px;margin-bottom:10px;position: relative;}
+.shop_size_compare a{float: right;height:20px;line-height: 20px;text-indent: 20px;width:108px;margin-bottom: 10px;color: #666;}
+.shop_size_compare a:hover{color:red;}
+.shop_size_compare .diva{height:212px;width:783px;position: absolute;display: none;left:-100px;top:-100px;z-index: 100;}
+
+.shop_number{height:25px;margin-top: 15px;margin-bottom: 20px;}
+/*//按钮提交*/
+.shop_submit{height:35px;}
+.goods_shopnow{background:white;border: 1px solid red;height:35px;width:121px;cursor: pointer;}
+.goods_addtocart{background:#e60012;color: white;border:1px solid #d90d0d;width:147px;height:35px;cursor: pointer;}
+
+/*//数量加入*/
+.shop_number input{border: 1px solid #ccc;width: 25px;height:17px;text-align: center;margin:0 0 0 3px;}
+.shop_number a{width:16px;height:16px;font-size: 16px;margin-left: 3px;border: 1px solid #ccc;display: inline-block;text-align: center;line-height: 16px;cursor: pointer}
+.shop_number b{color:red;font-weight: 800;font-family: arial, helvetica, sans-serif;}
+
+/*//二维码*/
+.shop_erwei{position: absolute;right: 0;top:130px;}
+.goods_look{height:550px;width:185px;overflow: hidden;position: relative}
+.look_goods{width:140px;height:510px;padding:10px 23px 2px 22px;float: left;overflow: hidden;}
+.look_head span{height:18px;width:185px;text-align: center;display: block;}
+
+
+
+.goods_look_ul{height:800%;position: absolute;top:-1044px;}
+.goods_look_ul li{
+    height:174px;width:140px;}
+.goods_look_bottom_1{width:27px;height:27px;display: block;background: url(../images/content/new_dpico.png)no-repeat -227px -157px;}
+.goods_look_ul li img{width:140px;height:140px;}
+
+
+.goods_look_bottom{position: absolute;top:520px;left: 20px;width:90px;height:27px;padding:0 25px;z-index: 10;}
+.goods_look_bottom_1:hover{background: url(../images/content/new_dpico.png)no-repeat -227px -217px;float: left}
+.goods_look_bottom_2{width:27px;height:27px;display: block;background: url(../images/content/new_dpico.png)no-repeat -227px -188px;float: right;}
+.goods_look_bottom_2:hover{width:27px;height:27px;display: block;background: url(../images/content/new_dpico.png)no-repeat -227px -247px;}
+
+/*//服务项*/
+.shop_middle_p1{margin-top: 20px;}
+.shop_middle_fuwu{width:490px;height:48px;margin-top:20px;}
+.shop_middle_fuwu span{padding:0 0 0 10px;width:62px;height:18px;float: left;display: inline-block;}
+.shop_middle_fuwu ul{width:418px;height:22px;float: left;display: inline-block;}
+.shop_middle_fuwu ul li{float:left;width:98px;height:22px;margin-left: 22px;}
+.hop_middle_li1 i{background: url(../images/content/new_dpico.png)no-repeat left -211px;height:22px;width:20px;display: block;float: left}
+.hop_middle_li2 i{background: url(../images/content/new_dpico.png)no-repeat -22px -211px;height:22px;width:20px;display: block;float: left}
+.hop_middle_li3 i{background: url(../images/content/new_dpico.png)no-repeat -45px -211px;height:22px;width:20px;display: inline-block;float: left;}
+.hop_middle_fuwu li a{width:48px;height:22px;display: inline-block;padding: 0 2px;float: left}
+
+
+.shop_yours{margin-top:30px;height:264px;border: 1px solid #ccc;position: relative;padding-top:20px;}
+.shop_lunbo{width:1140px;height:295px;margin-left: 25px;}
+.shop_lunbo span{position: absolute;height:22px;width:12px;top:124px;font-size: 18px;display: block;z-index:10;cursor: pointer;}
+.shop_lunbo_left{left: 5px;}
+.shop_lunbo_right{right:5px;}
+.shop_lunbo_main1{width: 400%;position: absolute;height: 270px;overflow: hidden;left: -1100px;top: 0;}
+/*设置轮播顶部*/
+.shop_yours_top{position: absolute;left:10px;top:0;height:21px;width: 100%;z-index: 15;}
+.shop_yours_top span{float: left;position: static;margin-right: 600px;}
+ .shop_yours_top b{float:right;display: block;height:20px;width:20px;}
+.shop_yours_top strong{float:right;display: block;height:20px;width:20px;}
+/*商品模块*/
+.shop_lunbo_main{width:1100px;height:295px;margin-top:8px;margin-left:25px;position: relative;overflow: hidden;}
+.shop_lunbo_shop{float: left;width:176px;height:270px;padding-left: 8px;}
+.shop_lunbo_shop dl{width: 176px;height:270px;}
+.shop_lunbo_shop dt{height:160px;width:160px;padding: 0 6px;}
+.shop_lunbo_shop  dd{height:100px;margin-top:10px;width:172px;margin-left: 20px;}
+.shop_lunbo_shop_p1{height:42px;line-height: 18px;}
+.shop_lunbo_shop_p2{height:21px;margin-top:3px;}
+.shop_lunbo_shop .shop_lunbo_shop_p2 b{width:36px;height:21px;color:red;font-size: 18px;text-align: center;margin-right: 5px;display: block;float: left}
+.shop_lunbo_shop_p2 del{display: block;width:28px;height:20px;float: left;line-height: 20px;}
+
+/*//返回顶部*/
+.return_top{border: 1px solid #ccc;width:26px;height:26px;padding:8px;position: fixed;bottom: 10px;right:50px;background:url(../images/brand/gotop-lnk.png)no-repeat center;display: none;}
+/*//bottom——buy*/
+.bootom_buy_now{width:100%;height:93px;position: fixed;bottom: 0;left: 0;z-index: 500;display: none;}
+.bottom_buy_left,.bottom_buy_left{height:45px;width:10%;}
+.bottom_buy_left {float:left}
+.bottom_buy_right {float:right}
+
+.bottom_buy_left i{background:url(../images/nav/bot_buy_sprite.gif) no-repeat;height: 45px;width:33px;display: inline-block;float: left;margin-left: 163px; }
+.bottom_buy_left p{height:45px;background: #cacaca;
+    margin-right: 513px;width:100%;}
+
+.bottom_buy_right i{background:url(../images/nav/bot_buy_sprite.gif) no-repeat -33px 0; height: 45px;width:33px;display: inline-block;float: left;margin-right:163px;}
+.bottom_buy_right p{width:100%;height:45px;background: #cacaca;
+    margin-left: 513px}
+
+.bottom_buy_middle{width:80%;height:63px;padding:11px 0 10px 19px;border: 1px solid #f3f3f3;box-shadow:2px 1px 2px #888;float: left;position: absolute;left:9%;margin-top:10px;background:#fffdf4;}
+.bottom_buy_middle_left{width:470px;height:50px;margin-top:3px;margin-bottom:10px;float: left;}
+.bottom_buy_middle_middle{width:250px;height:50px;margin-top:3px;margin-bottom:10px;float: left;}
+.bottom_buy_middle_right{width:350px;height:50px;margin-top:3px;margin-bottom:10px;float: left;}
+.bottom_buy_middle_right .goods_shopnow{margin-right:30px;}
+.shopde_mid{min-height: 1900px;_height:1900px;margin-top:20px;}
+.shopde_mid_left{width:972px;min-height:900px;
+    margin-right:30px;margin-top:50px;float: left;position: relative;}
+.shopde_mid_right{width:180px;float: left }
+.goods_nav_lc{height:32px;border-bottom: 2px solid #c01;width:970px;z-index: 500;background: white;}
+.nav_lc_red{background: red;color:white;}
+.nav_lc_p{
+    text-align: center;}
+.nav_lc_p_b{color:red;}
+.nav_lc_p a{border-top:1px solid #ccc;border-left: 1px solid #ccc;border-right: 1px solid #ccc;text-align: center;padding:0 18px;display: block;float:left;height:30px;line-height:30px;color:black;}
+
+.

@@ -1,0 +1,24 @@
+首页：
+公共样式：container
+
+头部广告条：bigBannerShow
+头部广告小条：smallBannerShow
+整个头部： yg_header
+顶部导航条：top_nav
+搜索框和：yg_log_tab
+主导航条：yg_category_nav
+主要的展示部分以及主要的轮播图片： indexfocusebd
+轮播图class名： imgBox
+轮播图上面数字：trgBox
+轮播图下面的展示区：ygwrap
+
+
+下面的导购栏：ygGuid
+
+
+ $("#username").change(function () {
+        if(getCookie("registname")==$('#username').prop('value')){
+            $("#pwd").prop('value',getCookie('registpwd'));
+        }
+    })
+

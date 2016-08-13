@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>详情页</title>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/categroy.js"></script>
+    <link href="css/list.css" type="text/css" rel="stylesheet"/>
+    <link href="css/common.css" type="text/css" rel="stylesheet"/>
+    <script src="js/cookie.js"></script>
+    <link href="css/allcategroy.css" type="text/css" rel="stylesheet"/>
+    <script>
+       $(function () {
+           $('#list_head').load("head.html");
+           $('#list_nav').load("banner.html");
+           $('#list_footer').load("footer.html");
+       })
+    </script>
+</head>
+<body>
+<div id="list_head" class="fixClear"></div>
+<div id="list_nav" class="fixClear"></div>
+<div id="list_main">
+<div class="main_list_sport contain">
+    <div class="newListy contain">
+    <div class="sport_bread contain"></div>
+    <div class="sport_filtercon contain"></div>
+    </div>
+    <div class="filter_bar contain">
+        <div class="bd_bar">
+            <span class="bd_bar_left"><b>排序方式：</b><a href="#">推荐</a><a href="#" class="bd_bar_red">热销</a><a  href="#" class="newshopcon">新品</a><a class="new_list" href="#">价格<i></i></a><a href="#" class="price_list">折扣<i></i></a></span>
+            <div class="chose_price"><span><input value="￥" type="text"/></span><i>-</i><span><input value="￥" type="text"/></span><span>清空</span><button>确定</button></div>
+            <div class="choose_new">
+                <p><span><i></i>16年新款</span><span><i></i>专柜排序</span></p>
+            </div>
+            <div class="choose_next">总共找到<b></b>个商品<span></span><a>上一页</a><a>下一页</a></div>
+        </div>
+    </div>
+    <!--//ajax生产图片li-->
+    <div class="filter_result_list contain fixClear">
+<ul id="filter_result_list_ul"></ul>
+    </div>
+</div>
+</div>
+<div id="list_footer" class="fixClear"></div>
+<script src="js/list.js"></script>
+</body>
+</html>
