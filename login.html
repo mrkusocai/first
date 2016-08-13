@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="js/jquery-1.11.3.js"></script>
+    <link href="css/common.css" type="text/css" rel="stylesheet"/>
+    <link href="css/login.css" rel="stylesheet"  type="text/css"/>
+    <script src="js/login.js"></script>
+    <script>
+        $(function(){
+                    $('#yg_nav1').load("headermin.html");
+                }
+        )
+        $(function(){
+            //判断是否存在cookie
+            if(getCookie("usernamel")){
+                $('#username').prop('value',getCookie("usernamel"));
+                $("#pwd").prop('value',getCookie('pwdl'));
+            }
+            var $lgname="";
+            $('#username').blur(function () {
+                $lgname=$('#username').prop('value');
+                if(getCookie("registname")==$lgname){
+                    $("#pwd").prop('value',getCookie('registpwd'));
+                }
+                $(".login_form_1_p1").css('visibility','hidden');
+            })
+            $('#username').change(function () {
+                $("#pwd").prop('value','');
+                if(getCookie("registname")==$lgname){
+                    $("#pwd").prop('value',getCookie('registpwd'));
+                }
+            })
+var strlogin="";
+
+//设置获取cookie
+            $(".login_submit_bt").click(function(){
+                $(".login_form_1_p1").css('visibility','hidden');
+//                alert(getCookie("registname"))
+//                alert($lgname)
+                if(getCookie("registname")||getCookie("usernamel")) {
+                    var loginName = $('#username').prop('value');
+                    var loginPwd = $('#pwd').prop('value');
+                    var d = new Date();
+                    d.setDate(d.getDate() + 7);
+                    setCookie('usernamel',loginName,d);
+                    setCookie('pwdl',loginPwd,d);
+//                alert(document.cookie)
+                    strlogin+='<div id="usernamelogin"><p>用户'+loginName+'<a>退出</a></p></div>';
+                    $('.user_login').html(strlogin);
+                    alert("登陆成功")
+                    open('index.html')
+                }else
+                {
+                    $(".login_form_1_p1").html("请输入正确的账号和密码");
+                    $(".login_form_1_p1").css('visibility','visible');
+                }
+            })
+        })
+    </script>
+</head>
+<body>
+<div id="yg_nav1"></div>
+<div id="uc_hd">
+<div class="contain uc_hd">
+    <h2><a href="http://www.yougou.com"><img src="images/signin-register-logo.png" alt="yougou" title="logo"/></a></h2>
+    <div class="login_name1">用户登录</div>
+</div>
+</div>
+<div class="login_main fixClear">
+    <a href="#" class="login_main_a"><img src="images/content/login_background.jpg" title="" alt=""/> </a>
+    <div class="login_table">
+
+        <p class="login_table_p1"><span class="login_table_p1_span1"><a href="login.html" style="color:#fff;cursor: pointer;">登陆</a></span><span class="login_table_p1_span2"><a href="register.html" style="color:#333;cursor: pointer">注册</a></span></p>
+        <form action="" method="get" class="login_form">
+            <div class="login_form_1">
+                <i ></i>
+            <input type="text" style="width:235px;height:36px;" name="usernamelogin"  placeholder="手机号/会员号/邮箱" id="username"/>
+            </div>
+            <p class="login_form_1_p1" ></p>
+            <div class="login_form_2">
+                <i ></i>
+                <input type="password" style="width:235px;height:36px;" name="pwd" placeholder="请输入密码" id="pwd" />
+            </div>
+            <p class="login_form_1_p2" ></p>
+            <div class="login_form_j">
+                <span>验证码</span>
+                <input type="text"   /><strong class="login_form_j_strong">9Eab</strong><em class="right_tag"></em>
+            </div>
+            <p class="login_form_1_j" ></p>
+            <p class="login_form_1_p3"><a href="#" style="color:#666666">忘记密码？</a></p>
+            <div class="login_submit">
+                <input type="button" value="点击登陆" class="login_submit_bt" />
+            </div>
+            <p class="login_form_1_p4">使用合作网站账号登录优购：</p>
+            <p class="login_form_1_p5">
+                <a href="https://open.weixin.qq.com/connect/qrconnect?appid=wxd4a55baba94aa963&response_type=code&scope=snsapi_login&redirect_uri=http%3A%2F%2Fwww.yougou.com%2Fmember%2FweixinCallback.jhtml%3F%26bizKey%3D67bd50f584f84a28abde5a5aa162f926"  class="login_form_p5a1"></a>
+                <a href="https://auth.alipay.com/login/express.htm?goto=https%3A%2F%2Fmemberexprod.alipay.com%3A443%2Fauthorize%2FuserAuthQuickLoginAction.htm%3Fe_i_i_d%3Dad1f9589f983b844c1c30005feaaa132"  class="login_form_p5a2"></a>
+                <a href="https://open.weixin.qq.com/connect/qrconnect?appid=wxd4a55baba94aa963&response_type=code&scope=snsapi_login&redirect_uri=http%3A%2F%2Fwww.yougou.com%2Fmember%2FweixinCallback.jhtml%3F%26bizKey%3D67bd50f584f84a28abde5a5aa162f926"  class="login_form_p5a3"></a>
+                <a href="https://open.weixin.qq.com/connect/qrconnect?appid=wxd4a55baba94aa963&response_type=code&scope=snsapi_login&redirect_uri=http%3A%2F%2Fwww.yougou.com%2Fmember%2FweixinCallback.jhtml%3F%26bizKey%3D67bd50f584f84a28abde5a5aa162f926"  class="login_form_p5a4"></a>
+                <a href="https://open.weixin.qq.com/connect/qrconnect?appid=wxd4a55baba94aa963&response_type=code&scope=snsapi_login&redirect_uri=http%3A%2F%2Fwww.yougou.com%2Fmember%2FweixinCallback.jhtml%3F%26bizKey%3D67bd50f584f84a28abde5a5aa162f926"  class="login_form_p5a5"></a>
+            </p>
+        </form>
+    </div>
+</div>
+<div class="login_footer contain fixClear" style="color: #CCC;margin-top: 10px;text-align: center"><p>Copyright © 2011-2014 Yougou Technology Co., Ltd. 粤ICP备09070608号-4 增值电信业务经营许可证：粤 B2-20090203</p></div>
+
+</body>
+</html>
